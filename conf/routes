@@ -1,0 +1,3 @@
+GET     /api/hello                 controllers.JsonController.hello
+
+GET     /api/greet                 controllers.JsonController.greet(name: String ?= "kuroshiba")
